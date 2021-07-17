@@ -1,0 +1,17 @@
+//54.Check whether the given character is alphabet.
+#include<stdio.h>
+int main()
+{
+	int ch;
+	printf("enter an alphabet:");
+	scanf("%c",&ch);
+	if(ch = 'a' && ch = 'z'){
+		printf("character is an alphabet");
+	}
+	
+	if(ch = 'A' && ch = 'Z'){
+		printf("character is an alphabet");
+	}
+	return 0;
+	
+}

@@ -1,0 +1,13 @@
+//50.check whether a number is odd.
+#include<stdio.h>
+int main(){
+	int num;
+	printf("enter a number:");
+	scanf("%d",&num);
+	if(num % 2 != 0)
+	printf("odd number");
+	if(num % 2 == 0)
+	printf("not an odd number");
+	
+	return 0;
+}
