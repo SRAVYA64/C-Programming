@@ -1,0 +1,12 @@
+//46.Program to check whether the entered character is alphabet or not using conditional operator.
+#include<stdio.h>
+int main(){
+	char ch;
+	printf("enter a character:");
+	scanf("%c",&ch);
+	if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
+	printf("given character is an alphabet");
+	else
+	printf("given character is not an alphabet");
+	return 0;
+}
