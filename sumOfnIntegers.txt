@@ -1,0 +1,9 @@
+//27 . Program to find sum of n integers Eg: sum of 10 integers=1+2+3+4+…….10=55.
+#include<stdio.h>
+int main(){
+	int n;
+	printf("enter number of integers:");
+	scanf("%d",&n);
+	printf("sum of integers is:%d",(n*(n+1))/2);
+	return 1;
+}

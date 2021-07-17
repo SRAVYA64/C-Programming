@@ -1,0 +1,9 @@
+//22.Program to swap two numbers without using temperory variable.
+#include<stdio.h>
+int main(){
+	int a = 2, b = 4;
+	printf("a = 2, b = 4");
+	b = a;  //b = 2
+	a = a + b;
+	printf("\nafter swapping:a = %d,b = %d",a,b);
+}

@@ -1,0 +1,17 @@
+//30. Program to find roots of a Quadratic Equation.
+#include<stdio.h>
+#include<math.h>
+int main(){
+	float a, b, c,root1,root2;
+	printf("enter the values:");
+	scanf("%f%f%f",&a,&b,&c);
+	// the quadratic equation is ax^2+bx+c.
+	root1 = ((-b)+ sqrt((b*b)- 4*a*c));
+	root2 = (-b - sqrt(b*b - 4*a*c));
+	printf("roots are:%f,%f",(root1)/(2*a),(root2)/(2*a));
+	
+	return 1;
+	
+}
+ 
+

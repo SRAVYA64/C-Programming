@@ -1,0 +1,9 @@
+//24.  Program to convert feets to inches.
+#include<stdio.h>
+int main(){
+	int num;
+	printf("enter number in feets:");
+	scanf("%d",&num);
+	printf("feets to inches:%d",num*12);
+	return 0;
+}

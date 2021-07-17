@@ -1,0 +1,14 @@
+/*20 . Program to print the number excluding its last two digits 
+           Eg I/P =  1234 O/P =12 */
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter a number:");
+	scanf("%d",&num);
+	
+	printf("number by exluding last two digits is:%d",num/100);
+	
+	return 0;
+   }   
+
