@@ -1,0 +1,14 @@
+/*Write a C program to calculate a bike's average consumption from the given total distance(integer value)
+ travelled (in km)and spent fuel (in liters, float number - 2 decimal point).*/
+ #include<stdio.h>
+ int main(){
+     int a;
+	float b;
+	printf("tot dis:");
+	scanf("%d",&a);
+	printf("\nfuel spent:");
+	scanf("%f",&b);
+	printf("average consumption is: %f",a/b);
+	return 0;
+	
+ }

@@ -1,0 +1,10 @@
+//28. Program to print the memory address of a variable in C.
+#include<stdio.h>
+int main(){
+	int n1,n2;
+	printf("enter num:");
+	scanf("%d%d",&n1,&n2);
+	printf("memory address:%u,%u",&n1,&n2);
+	return 1;
+	
+}

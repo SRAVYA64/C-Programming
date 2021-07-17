@@ -1,0 +1,42 @@
+//16.Write a C program that read 5 numbers and find the sum of  of positive numbers and negative numbers.
+#include<stdio.h>
+int main(){
+	int n1, n2, n3, n4, n5, sum = 0, s = 0;
+	printf("enter 5 numbers:");
+	scanf("%d %d %d %d %d",&n1,&n2,&n3,&n4,&n5);
+	
+	if(n1>0){
+		sum = sum+n1;
+	}
+	else
+	s = s+n1;
+	
+	if(n2>0){
+		sum = sum+n2;
+	}
+	else
+	s = s+n2;
+	
+	if(n3>0){
+		sum = sum+n3;
+	}
+	else
+	s = s+n3;
+	
+	if(n4>0){
+		sum = sum+n4;
+	}
+	else
+	s = s+n4;
+	
+	if(n5>0){
+		sum = sum+n5;
+	}
+	else
+	s = s+n5;
+	
+	printf("sum of positive integers is:%d",sum);
+	printf("\nsum of negative integers is:%d",s);
+	
+	return 1;
+}

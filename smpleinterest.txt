@@ -1,0 +1,9 @@
+//4.Write a c program to fing simple interest.
+#include<stdio.h>
+int main(){
+	int P, T, R;
+	printf("enter the values:");
+	scanf("%d%d%d",&P, &T, &R);
+	printf("simple inerest is:%d",(P*T*R)/100);
+	return 1;
+}

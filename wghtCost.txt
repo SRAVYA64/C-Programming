@@ -1,0 +1,18 @@
+/*8.	Write a C program that accepts an  item's weight  ,
+Cost and  number of units purchased  and calculate the  the total weight and total cost  of purchase.*/
+#include<stdio.h>
+int main(){
+	int itemswght, cost, units;
+	printf("enter the weight of the item:");
+	scanf("%d",&itemswght);
+	printf("enter the cost:");
+	scanf("%d",&cost);
+	printf("enter number of units purchased:");
+	scanf("%d",&units);
+	
+	printf("total weight of the item is:%d",(units)*itemswght);
+	printf("\ntotal cost of the purchase:%d",(cost)*units);
+	
+	
+	return 1;
+}

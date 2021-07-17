@@ -1,0 +1,43 @@
+//15.Write a C program that read 5 numbers and counts the number of positive numbers and negative numbers.
+#include<stdio.h>
+int main(){
+	int n1, n2, n3, n4, n5, count = 0, s = 0;
+	printf("enter 5 numbers:");
+	scanf("%d %d %d %d %d",&n1,&n2,&n3,&n4,&n5);
+	
+	if(n1>0){
+		count++;
+	}
+	else
+	s++;
+	
+	if(n2>0){
+		count = count+1;
+	}
+	else
+	s++;
+	
+	if(n3>0){
+		count++;
+	}
+	else
+	s++;
+	
+	if(n4>0){
+		count++;
+	}
+	else
+	s++;
+	
+	if(n5>0){
+		count++;
+	}
+	else
+	s++;
+	
+	printf("\nnumber of positive integers is:%d",count);
+	printf("\nnumber of negative integers is:%d",s);
+	
+	
+	return 1;
+}
