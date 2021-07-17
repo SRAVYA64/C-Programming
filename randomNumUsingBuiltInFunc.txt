@@ -1,0 +1,7 @@
+//32. Generate a random number using built-in Function.
+#include<stdio.h>
+int main(){
+	printf("the random number is:%d",rand());
+	
+	return 0;
+}

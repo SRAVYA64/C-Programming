@@ -1,0 +1,24 @@
+//31.Find square ,cube, power, squareroot, floor ,ceil of a number using built-in function.
+#include<stdio.h>
+#include<math.h>
+int main(){
+	float num, p, f, c;
+	printf("enter number:");
+	scanf("%f",&num);
+	//square
+	printf("\nthe square of a number is:%f",num*num);
+	//cube
+	printf("\nthe cube of a number is:%f",num*num*num);
+	//power
+	p = pow(num, 1);
+	printf("\nthe power of a number is:%f",p);
+	//squareroot
+	printf("\nthe squareroot of a given number is:%f",sqrt(num));
+	//floor ceil.
+	f =floor(num);
+    c =ceil(num);
+	printf("\nfloor value:%f \nceil value:%f\n",f,c);
+	
+	return 1;
+	
+}
