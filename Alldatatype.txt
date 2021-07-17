@@ -1,0 +1,30 @@
+/*5.Write a C program to read and print the values of variables of
+ different data types(int, short int,longint,long long int(decimal,octal,hexadecimal),
+ char,float,double , long double)*/
+ #include<stdio.h>
+ int main()
+ {
+ 	int i;
+	char c;
+	float f;
+	double d;
+	long double ld;
+ 	printf("enter int:");
+ 	scanf("%d",&i);
+ 	printf("char:");
+ 	printf("%c",&c);
+ 	printf("\nfloat:");
+ 	scanf("%f",&f);
+ 	printf("double:");
+ 	scanf("%lf",&d);
+ 	printf("long double:");
+ 	scanf("%Lf",&ld);
+ 	
+ 	printf("\nint:%d",i);
+ 	printf("\nchar:%s",c);
+ 	printf("\nfloat:%f",f);
+ 	printf("\ndouble:%lf",d);
+ 	printf("\nlong double:%Lf",ld);
+ 	
+ 	return 1;
+ }

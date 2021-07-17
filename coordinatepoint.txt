@@ -1,0 +1,10 @@
+//11.Write a C program to read two co-ordinate points and calculate the distance between the two points.
+#include<stdio.h>
+#include<math.h>
+int main(){
+	int x1, x2, x3, x4;
+	printf("enter x1,x2,x3,x4:");
+	scanf("%d%d%d%d",&x1,&x2,&x3,&x4);
+	printf("the distance between two points is:%f",sqrt((x2-x1)*(x2-x1)+(x4-x3)*(x4-x3)));
+	return 1;
+}
