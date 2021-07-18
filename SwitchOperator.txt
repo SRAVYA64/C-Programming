@@ -1,0 +1,34 @@
+/*65.Write a C program, which takes two integer operands and one operator from the user, performs 
+the operation and then prints the result. (Consider the operators +,-,*, /, % and use Switch Statement).*/
+#include<stdio.h>
+int main(){
+	int n1, n2;
+	char operator;
+	printf("enter an operator(+, -, *, /, %):");
+	scanf("%c",&operator);
+	printf("enter two numbers:");
+	scanf("%d%d",&n1,&n2);
+	switch(operator)
+	{
+		case '+':
+			printf("addition:%d",n1+n2);
+			break;
+		case '-':
+			printf("substraction:%d",n1-n2);
+			break;
+		case '*':
+			printf("multiplication:%d",n1*n2);
+			break;
+		case '/':
+			printf("division:%d",n1/n2);
+			break;
+		case '%':
+			printf("modullo division:%d",n1%n2);
+			break;
+		default:
+			printf("Error! enter the operator");
+	}
+	
+	return 1;
+}
+
