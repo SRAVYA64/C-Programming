@@ -1,0 +1,17 @@
+//70.To find the reverse of a given number(Egi/p 6758 o/p=8576).
+#include<stdio.h>
+int main(){
+	int num, rev, rem;
+	printf("enter number:");
+	scanf("%d",&num);                 
+	while(num!=0){                                
+		rem = rev%10;                   
+		printf("%d",rem);
+		rev = num/10;            
+	                  
+	}
+	
+	
+	
+	return 1;
+}
