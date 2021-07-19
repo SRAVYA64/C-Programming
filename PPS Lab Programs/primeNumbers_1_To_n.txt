@@ -1,0 +1,23 @@
+//Write a C program to generate all the prime numbers between 1 and n, where n is a value supplied by the user.
+#include<stdio.h>
+int main()
+{
+	int i,num,n, count=0;
+		printf("Enter limit:\n");     
+	     scanf("%d",&num);
+		 printf("The prime numbers from 1 to %d are:%d",num);         
+	     for(i=2;i<=num;i++)       
+	     { 
+	        for(n=1;n<=i;n++)            
+	        {
+	            if(i%n==0)   
+				{    
+				    count+=1;        
+			    }   
+		    }
+			if(count==2) 
+			{
+		        printf("%d ",i);
+            }
+        }
+}

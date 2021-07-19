@@ -1,0 +1,15 @@
+/*Write a simple program that converts one given data type to another using auto conversion and casting.
+ Take the values form standard input.*/
+#include<stdio.h>
+int main(){
+	int n;
+	float i, f;
+	printf("enter a number:");
+	scanf("%d",&n);
+	i = (float)n;
+	f = n*3.2;
+	printf("Explicit:%f",i);
+	printf("\nImplicit:%f",f);
+	return 1;
+	
+}

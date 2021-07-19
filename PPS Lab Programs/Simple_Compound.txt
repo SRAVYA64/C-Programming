@@ -1,0 +1,21 @@
+//Write the program for the simple, compound interest.
+#include<stdio.h>
+#include<math.h>
+int main(){
+	float p, t, r, SI, CI;
+	printf("enter principle:");
+	scanf("%f",&p);
+	printf("enter time:");
+	scanf("%f",&t);
+	printf("enter rate of interest:");
+	scanf("%f",&r);
+	SI = (p*t*r)/100;
+	CI = p*(pow((1 + r / 100),t));
+	printf("simple interest is %f",SI);
+	printf("\ncompound interest is %f",CI);
+	
+	return 1;
+	
+}
+
+

@@ -1,0 +1,14 @@
+//Write a C program to calculate the following, where x is a fractional value. i. 1-x/2 +x^2/4-x^3/6.
+#include<stdio.h>
+int main(){
+	float x, res;
+	printf("enter value of x(Fractional value):");
+	scanf("%f",&x);
+	
+	printf("1-x/2 +x^2/4-x^3/6:");
+	res = (1-x/2+(x*x)/4-(x*x*x)/6);
+	printf("\n%f",res);
+	
+	return 1;
+}
+

@@ -1,0 +1,19 @@
+//Write a program that shows the binary equivalent of a given positive number between 0 to 255.
+#include<stdio.h>
+int main(){
+	int num, i=1, r, binary=0;
+	printf("enter a number:");
+	scanf("%d",&num);
+	
+	while(num!=0){
+		
+		r = num%2;
+		num = num/2;
+		binary = binary + i*r;
+		i*=10;
+	}
+	printf("%d",binary);
+	
+	return 1;
+}
+

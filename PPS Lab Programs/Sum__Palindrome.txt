@@ -1,0 +1,22 @@
+//Write a C program to find the sum of individual digits of a positive integer and test given number is palindrome.
+#include<stdio.h>
+int main(){
+	int num, rem, rev=0, sum;
+	printf("enter a number:");
+	scanf("%d",&num);
+	
+	while(num!=0){
+		rem = num%10;
+		rev = rev*100 + rem;
+		num/=10;
+		sum+=rem;
+	}
+	printf("sum:%d",sum);
+	
+	if(rev==num)
+	printf("\npalindrome");
+	else
+	printf("\nnot a palindrome");
+	
+	return 1;
+}
