@@ -1,0 +1,15 @@
+//76. To find whether a number is even or odd using bitwise operators.
+#include<stdio.h>
+int main(){
+	int num;
+	printf("enter a number:");
+	scanf("%d",&num);
+	if(num & 1 == 1){
+		printf("ODD");
+	}
+	else
+		printf("EVEN");
+		
+	return 0;
+}
+

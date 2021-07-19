@@ -1,0 +1,14 @@
+//72.Print alphabets from a to z.
+#include<stdio.h>
+int main(){
+	char c = 97;
+	do
+	{
+		printf("%c\n",c);
+		c++;
+		
+	}while(c<=122);
+	
+	
+	
+}
