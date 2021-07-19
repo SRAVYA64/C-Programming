@@ -1,0 +1,21 @@
+//79.Minimum of Array elements.
+#include<stdio.h>
+int main(){
+	int i,minimum, location=1;
+	int a[5];
+	printf("enter elements of array:");
+	
+	for(i=0;i<5;i++){
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<5;i++){
+		if(a[i]<minimum){
+			minimum=a[i];
+			location=i+1;
+		}
+	}
+	printf("minimum value present at location number %d and its value is %d:",location,minimum);
+	
+	
+	return 1;
+}

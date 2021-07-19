@@ -1,0 +1,17 @@
+//77.Sum and average of Array Elements.
+#include<stdio.h>
+int main(){
+	int avg, sum;
+	int i;
+	int a[5];
+	for(i=0;i<5;i++){
+		scanf("%d",&a[i]);
+	}
+	for(i=0;i<5;i++)
+	sum=sum+a[i];
+	avg=sum/i;
+	printf("sum, average:%d\n%d",sum,avg);
+	
+	return 0;
+	
+}

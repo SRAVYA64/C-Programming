@@ -1,0 +1,20 @@
+//78.Maximum of Array elements.
+#include<stdio.h>
+int main(){
+		int i, max;
+		int a[5];
+		for(i=0;i<5;i++){
+			scanf("%d",&a[i]);
+		}
+		for(i=0;i<5;i++){
+			if(a[0]<a[i]){
+				a[0] = a[i];
+			}
+		}
+		printf("largest element:%d",a[0]);
+		
+		
+		return 1;
+		
+	
+}
