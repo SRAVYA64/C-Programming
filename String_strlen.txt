@@ -1,0 +1,15 @@
+//84. Program using string inbuilt functions(strlen ,strcat, strcmp, strncat, strnpy)
+//strlen
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char ch[50];	
+	int res;	
+	printf("enter the word:");	
+	gets(ch);	
+	res=strlen(ch);	
+	printf("length of string is %d",res);
+}
+
+

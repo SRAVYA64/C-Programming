@@ -1,0 +1,21 @@
+//84. Program using string inbuilt functions(strlen ,strcat, strcmp, strncat, strnpy).
+//strcat
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char w1[50],w2[20],r;	
+	int n;	
+	printf("enter the w1: ");	
+	gets(w1);	
+	printf("enter the w2: ");	
+	gets(w2);	
+	printf("enter the n ");	
+	scanf("%d",&n);	
+	strncat(w1,w2,n);	
+	printf("1st word after concatenation is %s",w1);
+	
+	
+	return 1;
+}
+
