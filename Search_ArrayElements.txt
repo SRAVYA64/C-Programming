@@ -1,0 +1,27 @@
+//80.C program to search for array elements.
+#include<stdio.h>
+int main(){
+	int i, s, tosearch, found=0;
+	int arr[s];
+	printf("enter size of the array:");
+	scanf("%d",&s);
+	for(i=0;i<s;i++){
+		scanf("%d",&arr[i]);
+		
+	}
+	printf("enter an element to search:");
+	scanf("%d",&tosearch);
+	for(i=0;i<s;i++){
+	if(arr[i]==tosearch){
+		found=1;
+		break;
+	}
+}
+	
+	if(found==1){
+		printf("element found at %d",i+1);
+	}
+	else{
+	printf("element not found in the array");
+	}
+}
