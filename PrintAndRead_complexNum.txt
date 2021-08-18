@@ -1,0 +1,18 @@
+//Program to read and print complex numbers using  structures.
+#include<stdio.h>
+struct complex
+{
+	int real;
+	int imaginary;
+};
+int main()
+{
+	struct complex c[10];
+	
+	printf("\n enter real part:");
+	scanf("%d",&c[10].real);
+	printf("\n enter imaginary part:");
+	scanf("%d",&c[10].imaginary);
+	printf("\n the complex number is:%d+i%d",c[10].real,c[10].imaginary);
+	return 0;
+}

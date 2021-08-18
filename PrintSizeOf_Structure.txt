@@ -1,0 +1,16 @@
+//. Program to print the size of a structure .
+#include<stdio.h>
+struct student 
+{
+	int n;
+	char ch[5];
+	float f;
+	
+}s;
+int main()
+{
+	int size;
+	size = sizeof(s);
+	printf("%d",size);
+	
+}

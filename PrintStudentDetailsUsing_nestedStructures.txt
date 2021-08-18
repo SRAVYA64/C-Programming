@@ -1,0 +1,40 @@
+Program to read and print student details using nested structures.
+#include<stdio.h>
+struct student
+{
+	char Name[10];
+	int rno;
+	struct DOB
+	{
+		int day;
+		int month;
+		int year;
+    }s1,s2;
+}sa,sb;
+int main()
+{
+	printf("enter the student details");
+	printf("\nname");
+	scanf("%s",sa.Name);
+	printf("rno:");
+	scanf("%d",&sa.rno);
+	printf("date");
+	scanf("%d",&sa.s1.day);
+	printf("month");
+	scanf("%d",&sa.s1.month);
+	printf("year");
+	scanf("%d",&sa.s1.year);
+	printf("name");
+	scanf("%s",sb.Name);
+	printf("rno:");
+	scanf("%d",&sb.rno);
+	printf("date");
+	scanf("%d",&sb.s2.day);
+	printf("month");
+	scanf("%d",&sb.s2.month);
+	printf("year");
+	scanf("%d",&sb.s2.year);
+	printf("rno Name   date of birth");
+	printf("\n%d %s %d-%d-%d",sa.rno,sa.Name,sa.s1.day,sa.s1.month,sa.s1.year);
+	printf("\n%d %s %d-%d-%d",sb.rno,sb.Name,sb.s2.day,sb.s2.month,sb.s2.year);
+}
