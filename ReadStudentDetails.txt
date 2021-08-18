@@ -1,0 +1,33 @@
+//Program to read student details rno,name ,marks using   structures.
+#include<stdio.h>
+struct student
+{
+	int rno;
+	char name[10];
+	float marks[3];
+}s[3];
+int main()
+{
+	int i;
+	printf("enter information of students:\n");
+	for(i=0;i<3;++i)
+	{
+	
+	s[i].rno= i + 1;
+	printf("\n enter roll no%d\n",s[i].rno);
+	printf("enter name:");
+	scanf("%s",&s[i].name);
+	printf("enter marks:");
+	scanf("%f",&s[i].marks);
+    }
+    for(i=0;i<3;++i)
+    {
+    	printf("\nroll number:%d\n",i+1);
+    	printf("name:");
+    	puts(s[i].name);
+    	printf("marks:%1f",s[i].marks);
+    	printf("\n");
+    	
+	}
+	return 0;
+}
